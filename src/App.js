@@ -79,7 +79,7 @@ export default function App() {
 
   useEffect(
     function () {
-      // abort web requests like fetch whenever they are no longer needed
+      // abort web requests like fetch whenever they are no longer needed .
       const controller = new AbortController();
 
       async function fetchMovies() {
